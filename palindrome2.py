@@ -10,7 +10,7 @@ def is_palindrome(var):
     return var == var[::-1]
 
 a= reverse_string(var)
-if var==a:
+if is_palindrome(var):
     print("palindrome")
 else:
-    print("not a palindrome")
+    print("not palindrome ")
